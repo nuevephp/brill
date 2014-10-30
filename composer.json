@@ -1,0 +1,20 @@
+{
+    "name": "brill/brill",
+    "description": "Extra layers for Slim Framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Smith",
+            "email": "a.smith@silentworks.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "slim/slim": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brill\\": "."
+        }
+    }
+}
